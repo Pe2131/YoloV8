@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Emgu.CV" Version="4.9.0.5494" />
+		<PackageReference Include="Emgu.CV.Bitmap" Version="4.9.0.5494" />
+		<PackageReference Include="Emgu.CV.runtime.windows" Version="4.9.0.5494" />
+		<PackageReference Include="Microsoft.AspNetCore.Components" Version="8.0.8" />
+		<PackageReference Include="SixLabors.ImageSharp" Version="3.1.5" />
+		<PackageReference Include="YoloDotNet" Version="2.0.0" />
+	</ItemGroup>
+</Project>
